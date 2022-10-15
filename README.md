@@ -7,6 +7,6 @@ At the time of writing (October 15 2022) this is still a WIP and needs a lot of 
 
 Note for Mr. Gerber: Code can be downloaded under the green "Code" button, or you can clone the repository using git.
 
-'''git clone https://github.com/BJS1206/BJS1206.github.io.git'''
+```git clone https://github.com/BJS1206/BJS1206.github.io.git```
 
 Also, the wireframe picture is included in the repository's files.
