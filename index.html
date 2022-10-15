@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+      <title>Bryce's Portfolio</title>
+      <meta name="description" content="Hi, I'm Bryce. I decided to put together this website as a sort of portfolio/profile page and as my homework assignment for my Web and App Design class :)">
+      <meta name="author" content="Bryce James Shaw">
+      <link rel='stylesheet' href='style.css' />
+      <link rel='stylesheet' href='mobile.css' />
+      <link rel='icon' href='src/img/logo.png'>
+      <script src="https://kit.fontawesome.com/f65f1dad44.js" crossorigin="anonymous"></script>
+   </head>
+   <body id='body'>
+      <nav class='title fixed-elements'>
+         <div class='container'>
+            <a href='#' style="text-decoration: none;"><i class='fa fa-user fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>About Me</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#resume' style="text-decoration: none;"><i class='fa fa-file-text fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resume</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#portfolio' style="text-decoration: none;"><i class='fa fa-code-fork fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text' style="text-decoration: none;"><b class='nav-text t'>Portfolio</b></div>
+            </div></a>
+         </div>
+         <div class='container'>
+            <a href='#resources' style="text-decoration: none;"><i class='fa fa-bookmark fa-3x nav-icon small-icon' aria-hidden=true></i>
+            <div class='overlay'>
+               <div class='text'><b class='nav-text t'>Resources</b></div>
+            </div></a>
+         </div>
+      </nav>
+      <nav class='title fixed-elements-right'>
+         <script src='src/js/dark.js'></script>
+         <div class='dark-mode show' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-moon-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Dark Mode</b></div>
+         </div></div>
+         <div class='light-mode' onclick='toggleDark()' onmouseover="" style="cursor: pointer;"><i class='fa fa-sun-o fa-3x nav-icon'></i>
+         <div class='overlay'>
+            <div class='text nav-text t'><b>Light Mode</b></div>
+         </div></div>
+      </div>
+      </nav>
+      <div class='view'>
+         <div class='main'>
+            <div class='mainhead'>
+               <div class='descrip' id='titlename'>
+                  <h3 class='bigtitle t'>Bryce Shaw</h3>
+                  <h2 class='indescrip t'>Software Developer at Wisdom Builders</h2>
+                  <br>
+                  <div class='side-center'>
+                     <a href='https://github.com/BJS1206' title='GitHub' target='_blank'><i class='fa fa-github top-icon' aria-hidden=true></i></a>
+                     <a href='mailto:bryceshaw06@gmail.com' title='Email' target='_blank' class='t'><i class='fa-solid fa-at top-icon' aria-hidden=true></i></a>
+                  </div>
+               </div>
+               <section id='about'>
+                  <div class="lightback">
+                     <br>
+                     <div class='res-segment centered'>
+                        <div id='less-button' class='text-module t'>Less</div>
+                        <div id='more-button' class='text-module t'>More</div>
+                     </div>
+                     <br><br>
+                     <div class=''></div>
+                     <div id='less' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='less' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='less' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <div id='more' class='subdescrip'>Irure duis do cupidatat occaecat minim veniam magna exercitation officia id anim do tempor</div>
+                     <br><br>
+                     <script src='src/js/profile.js'></script>
+                  </div>
+               </section>
+               <section id='resume'>
+                  <div class='lightback'>
+                     <h2 class='indescrip t'>Resume</h2>
+                     <embed class="pdf" src="src/Bryce_Shaw_Resume.pdf" />
+                     <div class='res-segment centered'>
+                        <div class='download-descrip centered t'>Download</div>
+                        <a id="file" target="_blank" href="src/Bryce_Shaw_Resume.pdf" download="Bryce_Shaw_Resume" target="_blank" title="My Resume (PDF)"><i class='fa fa-file-pdf-o top-icon' aria-hidden=true></i> <span class='t'>Download This PDF</span></a>	
+                     </div>
+                     <br>
+                  </div>
+               </section>
+               </section>
+               <section id="portfolio">
+                  <div class="lightback">
+                     <h2 class='indescrip t'>Portfolio</h2>
+                     <br>
+                     <p class="centered">
+                        <a href="https://github.com/BJS1206/cemu-macos-compatibility" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=cemu-macos-compatibility" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <a href="https://github.com/BJS1206/" target="_blank"><img class="portfolio-pin" src="https://github-readme-stats.vercel.app/api/pin/?username=BJS1206&repo=" /></a>
+                        <br><br>
+                        <samp>
+                           <a href="https://github.com/BJS1206?tab=repositories&language=python" target="_blank"><img alt="Python" src="https://img.shields.io/badge/-Python-3572A5?style=flat-square&logo=Python&logoColor=white"></a>
+                           <a href="https://github.com/BJS1206?tab=repositories&language=javascript" target="_blank"><img alt="Java" src="https://img.shields.io/badge/-Javascript-f1e05a?style=flat-square&logo=Javascript&logoColor=white"></a>
+                           <a href="https://github.com/BJS1206?tab=repositories&language=c%2B%2B" target="_blank"><img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-f34b7d?style=flat-square&logo=C%2B%2B&logoColor=white"></a>
+                           <a href="https://github.com/BJS1206?tab=repositories&language=html" target="_blank"><img alt="HTML" src="https://img.shields.io/badge/-HTML-e34c26?style=flat-square&logo=HTML5&logoColor=white"></a>
+                        </samp>
+                     </p>
+
+                  </div>
+                  <br>
+               </section>
+            </div>
+            </section>
+            <section id='resources'>
+            <div class='lightback'>
+               <h2 class='indescrip t'>Resources</h2>
+               <br>
+               <script src='src/js/popup-handler.js'></script>
+               <div id='resource-dir' class='res-segment'>
+                  <table id="resource-table">
+                     <tr>
+                        <th class='t'>Name</th>
+                        <th class='t'>Year</th>
+                        <th>URL</th>
+                     </tr>
+                     <tr>
+                        <td>1<div class='popup' onclick='togglePopup("popup1")'><i class='fa fa-info-circle'></i><span class='popuptext' id='1'>Info</span></div></td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/cemu-macos-compatibility' class='table-url' target='_blank'><span class='t'>1</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>2<div class='popup' onclick='togglePopup("popup2")'><i class='fa fa-info-circle'></i><span class='popuptext' id='2'>Info</span></div></td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'><span class='t'>2</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>3</td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>4<div class='popup' onclick='togglePopup("popup4")'><i class='fa fa-info-circle'></i><span class='popuptext' id='4'>Info</span></div></td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'><span class='t'>Repository</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr class='gold-row'>
+                        <td>5 - <span class='t'>Test 5</span> <div class='popup' onclick='togglePopup("popup5")'><i class='fa fa-info-circle'></i><span class='popuptext' id='5'>Info</span></div></td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'><span class='t'>Repository</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>6</td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'><span class='t'>Repository</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>7</td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'><span class='t'>Repository</span> <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td>8</td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                     <tr>
+                        <td><span class='t'>9</span> <div class='popup' onclick='togglePopup("popup9")'><i class='fa fa-info-circle'></i><span class='popuptext' id='9'>Info</span></div></td>
+                        <td>2022</td>
+                        <td><a href='https://github.com/BJS1206/' class='table-url' target='_blank'>Repository <i class='fa fa-external-link'></i></a></td>
+                     </tr>
+                  </table>
+               </div>
+               <!-- <br> -->
+            </div>
+            </section>
+         </div>
+         <footer class='foot' id='contact'>
+            <a class='legal t'>© 2022 Bryce James Shaw | Carmel, IN United States of America</a>
+            <br><br>
+            <a class='legal email' href='mailto:bryceshaw06@gmail.com' target='_blank'>bryceshaw06@gmail.com</a>
+            <br><br>
+            <a href='https://github.com/BJS1206' title='GitHub' target='_blank'><i class='fa fa-github' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <a href='https://www.youtube.com/channel/UC1Gx2w-_b_kmVUMlfy7ty7w' title='YouTube' target='_blank'><i class='fa fa-youtube-play' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <!-- <a href='https://twitter.com/' title='Twitter' target='_blank'><i class='fa fa-twitter' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a> -->
+            <a href='https://www.instagram.com/bryceshaw1206/' title='Instagram' target='_blank'><i class='fa-brands fa-instagram' aria-hidden=true style='margin: 1%; font-size: 36px; color: white'></i></a>
+            <br><br><br>
+         </footer>
+      </div>
+      <script>
+         window.onload = function() {
+            window.scrollTo(0, 0);
+            document.getElementById("load").className += "loaded";
+         }
+      </script>
+   </body>
+</html>
